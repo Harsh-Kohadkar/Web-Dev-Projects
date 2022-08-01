@@ -1,0 +1,125 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+  font-family: 'Poppins';
+  line-height: 1.4;
+  background-color: #D7DCDD;
+  width: 500px;
+  margin: auto;
+}
+ form{
+   background: rgb(147, 5, 0.2);
+   padding: 2.5rem 2.5rem;
+   border-radius: 2rem;
+   width: 500px;
+   margin: auto;
+ }
+ .submit-button {
+  width: 95%;
+  padding: 0.75rem;
+  background: red;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+ .input-headings{
+   margin: 0 auto 1.25rem auto;
+   padding: 0.25rem;
+ }
+ .form-inputs{
+   display: block;
+   width: 90%;
+   height: 2rem;
+   padding: 0.25 rem 0.75rem;
+   background-color: #fff;
+   border: 1px solid #ced4a;
+   border-radius: 0.25rem;
+ }
+  </style>
+<html>
+<Header>
+<h1 id="title"> Post semester Programs survey form </h1>
+</header> 
+<hr>
+<Body> 
+<p id="description">
+ Students are required to fill the following form to select what course they want to opt-in after end semester exams.
+<br>
+<b> Note: Students can opt for only one program. </b>
+</p>
+
+<form id="survey-form">
+
+<div class="input-headings">
+  
+  <label for="name" id="name-label"> Name: </label>
+  <input id="name" type="text" name="name" placeholder="First Name  Last Name " class="form-inputs" required> </input>   
+<br>        
+  <label for="email" id="email-label"> Email: </label>
+  <input id="email" type="email" name="email" placeholder="eg.  cclassyouremail@gmail.com" class="form-inputs" class="form-inputs"required> </input>
+<br>
+  <label for="number" id="number-label"> Roll number: </label>
+  <input id="number" type="number" name="number" min="01" max="60" placeholder="eg. 51" class="form-inputs" required> </input>
+<br>
+
+<label for="dropdown" id="program" style="width: 90vw;"> Select Program: </label>
+  <select id="dropdown">
+    <option value = "Internship"> Internship</option>
+    <option value = "Industrial Visit and Training"> Industrial Visit</option>
+    <option value = "Placement Training"> Placement Training</option>
+    <option value = "GRE Training"> GRE Training </option>
+  </select>
+<br>
+<br>
+
+<label for="mode_of_conduct" id="mode_of_conduct"> <b>Mode of conduct:</b> </label>
+<br>
+  <input id="mode_of_conduct" type="radio" name="conduct" value="online">
+  <label for="mode_of_conduct"> Online </label>
+  <br>
+  <input id="mode_of_conduct" type="radio" name="conduct" value="hybrid">
+  <label for="mode_of_conduct"> Hybrid </label>
+<br>
+  <input id="mode_of_conduct" type="radio" name="conduct" value="offline">
+  <label for="mode_of_conduct"> Offline </label>
+<br>
+<br>
+                           
+<label for="Duration"> <b>Duration:</b></label>
+ <br>
+
+  <input id="checkbox" type="checkbox" name="Period" value="15 Days">
+  <label for="checkbox"> 15 Days</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="Period" value="30 Days">
+  <label for="checkbox"> 30 Days</label>
+  <br>
+  <input id="checkbox" type="checkbox" name="Period" value="45 Days">
+  <label for="checkbox"> 45 Days</label>
+<br>
+<br>
+<label id="textarea"> <b>Any Doubts or queries?: </b> </label>
+<br>
+<br>
+<textarea id="textarea" name="Queries"rows="5" cols="40">
+
+  </textarea>
+  <br>
+
+  <input id="submit" type="submit" value="Place Order" class:"submit-button">
+  </div>
+  </form>
+  </body>
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
